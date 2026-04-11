@@ -48,7 +48,7 @@ def add_features(df, alpha=0.02, T0=25.0):
 #              new format (dict with "model" and "features" keys)
 # ============================================================
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(BASE_DIR, "rf_experimental.pkl")
+MODEL_PATH = os.path.join(BASE_DIR, "ExtraTrees__physics_full.pkl")
 
 print(f"[BOOT] Loading model from: {MODEL_PATH}")
 try:
